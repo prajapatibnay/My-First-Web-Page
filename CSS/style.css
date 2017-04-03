@@ -1,0 +1,93 @@
+
+#div1 {/*index.html*/
+        width: 1300px;
+        height: 300px;
+        margin: 10px;
+        border: 1px solid black;
+        padding: 10px;
+     }
+
+#div2 {/*index.html*/
+        width: 1250px;
+        height: 250px;
+        margin: 10px;
+        border: 1px solid black;
+        padding: 10px;
+     }
+
+#div3 {/*festival.html*/
+        width: 800px;
+        height: 350px;
+        margin: 10px;
+        border: 2px solid black;
+        padding: 10px;
+        float: right;
+     }
+
+#div5 {/*festival.html*/
+        width:1000px;
+        height: auto;
+        background-color:green;
+        clear:both;
+     }
+    
+
+#div4 {/*people.html*/
+        width: 1200px;
+        height: 400px;
+        margin: 10px;
+        border: 2px solid black;
+        padding: 10px;
+        background-color: gray;
+     }
+
+
+.gallery {/*festival.html*/
+     display: block; 
+     width: 200px;
+     height: 200px;  
+     float: right;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     border: 5px solid black;
+     border-radius: 15px;
+}
+
+.homemenu{/*index.html*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.hmli{/*index.html*/ /*homemenu li*/
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.hmli a{/*index.html*/ /*homemenu li a*/
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hmli a:hover{/*index.html*/ 
+    background-color: blue;
+}
+
+.active {/*Add an "active" class to the current link to let the user know which page he/she is on:*/
+    background-color: #4CAF50;
+}
+
+.leftsidebar{ /*Advertisement*/
+  float: left;
+  width: 200px;
+  background: gray;
+  height: 100%;
+  display: block;
+}
+
+

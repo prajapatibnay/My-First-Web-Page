@@ -1,0 +1,90 @@
+#leftpart {/*festival.html*/
+	    width:200px;
+	    height:150px;
+	    float:left;
+	    margin: 10px 0 0 0;
+     }
+
+#rightpart1 {/*festival.html*/
+	     width:500px;
+	     height:30px;
+	     background-color:green;
+	     float:left;
+	     margin: 10px 10px 0 10px;
+	     border: 1px solid black;
+     }
+
+#rightpart2 {/*festival.html*/
+	     width:1100px;
+	     height:300px;
+	     background-color:gray;
+	     float:left;
+	     border: 1px solid black;
+	     margin: 10px 10px 0 10px;
+	     padding: 2px;
+     }
+
+#rightpart3 {/*gaijatra.html*/
+	     width:800px;
+	     height:30px;
+	     background-color:green;
+	     float:left;
+	     border: 1px solid black;
+	     margin: 10px 10px 0 210px;
+	     padding: 2px;
+     }
+
+
+#rightpart4 {/*gaiatra.html*/
+	     width:1100px;
+	     height:600px;
+	     background-color:gray;
+	     float:left;
+	     border: 1px solid black;
+	     margin: 10px 10px 0 10px;
+	     padding: 2px;
+     }
+
+
+
+
+
+.bisketjatra {
+	width:290px;
+	height:300px;
+	background-color:red;
+	border:1px solid black;
+	border-radius:20px;
+	margin:5px;
+	}
+
+
+.ul{/*festival.html*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: yellow;
+    border: 1px solid #555;
+}
+
+.li{/*festival.html*/ /*ul li*/
+    text-align: left;
+    border-bottom: : 1px solid #bbb;
+}
+
+.li a{/*festival.html*/ /*ul li a*/
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.li a:hover{/*festival.html*/ 
+    background-color: #555;
+    color: white;
+}
+
+.active1 {/*Add an "active" class to the current link to let the user know which page he/she is on:*/
+    background-color: blue;
+}
